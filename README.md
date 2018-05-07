@@ -3,10 +3,9 @@ Importing Arduino IDE 1.8.5 sketch From In-Circuit-Checker by ChaN (http://elm-c
 
 ## notice
 
-I tried attiny13's fuse "H:FB L:3B".
-And Using USBASP(Slow-mode).
+I tried attiny13's fuse "H:FB L:3B", with Using USBASP(Slow-mode).
 
-## Lisence
+## License
 
 designed by ChaN (elm-chan.org)
 CreativeCommon BY 3.0 / Adapted.
