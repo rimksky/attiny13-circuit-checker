@@ -6,7 +6,7 @@ Importing Arduino IDE 1.8.5 sketch From In-Circuit-Checker by ChaN (http://elm-c
 Original Design:
 http://elm-chan.org/works/cch/report.html
 
-I tried attiny13's fuse "H:FB L:3B", with Using USBASP(Slow-mode).
+I tried attiny13's fuse "E:FF H:FF L:3B", with Using USBASP(Slow-mode).
 
 ## setting Arduino IDE (1.8.5)
 
@@ -19,6 +19,7 @@ MicroCore
 ### burning bootloader(once):
 * Tools -> board -> ATtiny13
 * Tools -> Clock -> 128 KHz internal osc.
+* Tools -> BOD -> Disabled
 * Tools -> Writer -> USBasp (Set Slow JP on USBasp board)
 
 ### building
