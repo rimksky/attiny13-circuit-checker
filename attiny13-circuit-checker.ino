@@ -56,16 +56,6 @@ void setup() {
 
   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
 
-    beep(tone[1]);          /* Startup beep */
-    delay_ms(1000);
-    beep(0);
-    beep(tone[2]);          /* Startup beep */
-    delay_ms(1000);
-    beep(0);
-    beep(tone[3]);          /* Startup beep */
-    delay_ms(1000);
-    beep(0);
-    
   for (;;) {
     PORTB = 0b00101;        /* LED OFF, Disable bias circuit */
     ADCSRA = 0;           /* Stop ADC */
