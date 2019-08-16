@@ -30,4 +30,4 @@ Let's enjoy!
 
 designed by ChaN (elm-chan.org)
 
-CreativeCommon BY 3.0 / Adapted.
+CreativeCommon BY 4.0 / Adapted.
